@@ -1,0 +1,38 @@
+.Footer {
+	background-color: var(--mainColor);
+	box-shadow: 1px 1px 20px 0px #0000006b;
+	border-radius: 120px 120px 0 0;
+}
+.Footer .box {
+	padding: 10px 0;
+	font-size: 18px;
+}
+.Footer .rightEnd {
+	display: flex;
+	align-items: center;
+}
+
+
+.Footer .rightEnd span {
+	padding-left: 35px;
+}
+.Footer .rightEnd .socialIcons {
+	display: flex;
+	align-items: center;
+}
+.Footer .rightEnd .socialIcons img {
+	padding-left: 21px;
+	width: 21px;
+}
+.Footer .rightEnd .socialIcons img:hover {
+    filter:  brightness(0) invert(1);
+    cursor: pointer;
+}
+.Footer .leftEnd {
+	font-weight: bold;
+    
+}
+.Footer .leftEnd span {
+	padding-right: 35px;
+
+}

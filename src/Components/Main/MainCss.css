@@ -1,0 +1,33 @@
+.Main {
+	background-image: url('../../images/Map.svg');
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-position: -40px 12px;
+}
+
+.Main .box{
+    padding: 40px 0;
+    
+
+}
+
+.Main .shopIcon{
+    background-image: url('../../images/shopIcons.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Main .MainText span{
+    display: block;
+    font-size: 30px;
+    
+}
+.Main .MainText span:nth-child(2){
+    padding-right: 120px;
+    padding: 45px 100px 45px 0;
+}
+.Main .MainText span:nth-child(3){
+    padding-right: 200px;
+  
+}

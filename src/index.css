@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "alJazeeraBold";
+	src: url("./fonts/ArbFONTS-Al-Jazeera-Arabic-Bold.ttf");
+}
+@font-face {
+	font-family: "alJazeeraRegular";
+	src: url("./fonts/ArbFONTS-Al-Jazeera-Arabic-Regular.ttf");
+}
+:root {
+	--mainColor: #fbd675;
+	--mapColor: #ebebeb;
+	--footerColor: #f8f8f8;
+	--iconColor: #b1b1b1;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "alJazeeraBold";
+	background-color: var(--mapColor);
+}
